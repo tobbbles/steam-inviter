@@ -6,10 +6,10 @@ Steam inviter uses Nodemon naturally to run.
 - npm install
 
 #Running
-- nodemon x
+- nodemon -x
 
 #Usage
 - Visit http://localhost:3000
 - Sign in with username:password
 - Enter your Steam Auth code emailed to your accounts inbox
-- Use Dashboard
+- Use the dashboard
