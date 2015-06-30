@@ -2,7 +2,7 @@
   "name": "steam-inviter",
   "version": "0.1.0",
   "description": "A single-instance web panel for mass Steam group invites",
-  "main": "app.js",
+  "main": "bin/www",
   "dependencies": {
     "connect-flash": "^0.1.1",
     "body-parser": "^1.12.4",
