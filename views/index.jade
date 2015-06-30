@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  div.container
+    div.row
+      div(class='col-md-3')
+      div(class='col-md-6')
+        div(class='panel panel-default')
+          div(class='panel-body' style='padding-bottom: 40px')
+            h2 Please log in:
+            form(action='/' method='post' class='form-inline')
+              div(class='form-group')
+                input(type='text' name='username', class='form-control' style='margin-right: 7px')
+                input(type='password' name='password' class='form-control' style='margin-right: 7px')
+                button(class='btn btn-default' type='submit') Submit
+      div(class='col-md-3')

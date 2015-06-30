@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  p Welcome to #{title}
+  div.container
+    div.row
+      div(class='col-md-3')
+      div(class='col-md-6')
+        div(class='panel panel-default')
+          div(class='panel-body')
+            h2 Enter your Steam guard code
+            form(action='/steamguard' method='post' class="form-group")
+              input(type='text' name='steamguard' class='form-control' style='margin-right: 7px')
+              button(class='btn btn-default' type='submit') Submit
+      div(class='col-md-3')

@@ -1,0 +1,30 @@
+{
+  "name": "steam-inviter",
+  "version": "0.1.0",
+  "description": "A single-instance web panel for mass Steam group invites",
+  "main": "app.js",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "body-parser": "^1.12.4",
+    "cheerio": "^0.19.0",
+    "cookie-parser": "^1.3.5",
+    "debug": "^2.1.3",
+    "express-session": "^1.11.3",
+    "express": "^4.12.4",
+    "flash": "^1.1.0",
+    "jade": "^1.9.2",
+    "readline": "^0.0.8",
+    "request": "^2.58.0",
+    "morgan": "^1.5.3",
+    "steam": "^0.6.8",
+    "serve-favicon": "^2.2.1",
+    "steam-groups": "^1.0.1",
+    "winston": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
